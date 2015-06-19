@@ -1,0 +1,309 @@
+body, html
+{ 
+    height: 100%;
+    color: red;
+    background:black;
+    background-image: linear-gradient(bottom, rgb(0,0,0) 55%, rgb(120,1,1) 81%);
+    background-image: -o-linear-gradient(bottom, rgb(0,0,0) 55%, rgb(120,1,1) 81%);
+    background-image: -moz-linear-gradient(bottom, rgb(0,0,0) 55%, rgb(120,1,1) 81%);
+    background-image: -webkit-linear-gradient(bottom, rgb(0,0,0) 55%, rgb(120,1,1) 81%);
+    background-image: -ms-linear-gradient(bottom, rgb(0,0,0) 55%, rgb(120,1,1) 81%);
+
+    background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.55, rgb(0,0,0)),
+    color-stop(0.81, rgb(120,1,1))
+    );
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+
+
+}
+
+body p {
+    text-align: center;
+}
+
+h1
+{
+    text-align:center;
+    margin:2% 0%;
+    margin-bottom: -5px;
+    
+    
+}
+
+
+h2
+{
+    text-align:center;
+    /*font-family:sans-serif;
+    font: bold 200% "Lucida Grande";
+    background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#FF0000));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  */
+}
+
+
+
+#nav
+{
+    float:left;
+    width:100%;
+    overflow:hidden;
+    position:relative;
+    margin-bottom:15px;
+    margin-top:15px;
+}
+
+#nav ul
+{
+    clear:left;
+    margin:0;
+    padding:0;
+    position:relative;
+    list-style:none;
+    left:50%;
+    text-align:center;
+    float:left;
+   
+    
+}
+
+#nav ul li
+{
+    display:block;
+    right:50%;
+    float:left;
+    list-style:none;
+    margin:0;
+    padding:0;
+    position:relative;
+}
+
+#nav ul li a
+{
+    display:block;
+    margin:0px 5px 0px 5px;
+    color:#FF0000;
+    font-weight:bold;
+    padding:5px 5px 5px 5px;
+    text-decoration:none;
+    float:left;
+    float:right;
+    border: 2px inset #FF0000;
+    background:black;
+    
+}
+
+#nav ul li a:hover
+{ 
+color:orange;
+}
+
+#nav ul li a.active {
+    
+    color:#fb920a;
+    }
+    
+
+    
+#toptitle
+{
+    text-align:center;
+}
+
+#roster
+{
+    //margin:65px 175px;
+    margin-top:2%;
+    margin-left:auto;
+    margin-right:auto;
+    width:80%;
+}
+
+#roster img
+{
+    padding: 5px;
+    
+}
+
+#intro
+{
+    text-indent:25px;
+    margin:15px 250px;
+    text-align:center;
+    font-weight:bold;
+    font-family: sans-serif,Arial;
+    font-size: 125%;
+
+}
+
+#intro img
+{
+    margin:0;
+    /*padding:20px;*/
+}
+
+
+}
+#awards
+{
+    text-align:center;
+    margin:15px 250px;
+    font-family: sans-serif;
+    font-weight:bold;
+}
+
+#awards p
+{
+    padding: 15 15 15 15;
+    font-family: sans-serif,Arial;
+    font-weight:bold;
+    text-transform: capitalize;
+    text-align:center;
+    
+}
+
+#videos
+{
+    text-align:justify;
+    text-align:center;
+    font-weight:bold;
+    font-family: sans-serif,Arial;
+    padding: 15 15 15 15px;
+    
+    
+}
+
+#videos iframe
+{
+    margin-top:20px;
+    margin:10px;
+    border-style: inset;
+    border-color: white;
+    border-width:5px;
+}
+
+.countdown {
+    text-align: center;
+    font-size: 12px;
+}
+
+
+.sponsors{
+    font-family: serif;
+    text-align: center;
+}
+
+.sponsors p{
+        font-size:45px;
+	margin-bottom: 5px;
+	color: #fb920a;
+}
+
+.sponsors img{
+    margin-bottom: 40px;
+}
+
+pre{
+    text-align: center;
+    font-family: serif;
+    margin: 0px;
+}
+
+.contact{
+    text-align: center;
+    font-family: serif;
+}
+
+.contact p{
+    margin:0px;
+}
+
+table {
+    margin: auto;
+    width:60%;
+    
+}
+
+th {
+    border-bottom: 2px solid orange;
+    
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #454545;
+}
+
+table tr td a{
+    text-decoration: none;
+    color: inherit;
+}
+
+tr:hover {
+    color:orange;
+}
+
+#calendartable {
+    text-align: center;
+}
+
+table.people td{
+border-bottom: 0 solid #000000;
+}
+
+#adventure {
+    text-align: center;
+}
+
+
+            /* Menu Start Here */
+            
+	    #menu {
+		text-align: center;
+	    }
+	    
+            #menu li {
+                list-style: none;
+                padding: 0;
+		display: inline;
+            }
+            
+            #menu li a {
+                
+                border: 1px solid black;
+                padding: 15px 20px 15px 20px;
+                text-decoration: none;
+                color:black;
+                margin-left: -5px;
+                /* This is the background used for the animation */
+                background-image: url('menu2.jpg');
+                /* Align the image position to the left of the a */
+                background-position: left;
+                -webkit-transition: all 0.8s ease-in-out;
+                /* Animation with transition in Firefox (No supported Yet) */
+                -moz-transition: all 0.8s ease-in-out;
+                /* Animation with transition in Opera (No supported Yet)*/
+                -o-transition: all 0.8s ease-in-out;
+		display: inline-block;
+		
+            }
+            
+            #menu li a:hover {
+                color: #c82222;
+                /* Align the image position of the background to the right*/
+                background-position:right;
+            }
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+
+	    

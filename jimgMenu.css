@@ -1,0 +1,89 @@
+
+.jimgMenu {
+	position: relative;
+	/*width: 1500px;*/
+	height: 200px;
+	overflow: hidden;
+
+	
+	float:left;
+	width:100%;
+	margin-bottom: 15px;
+}
+
+.jimgMenu ul {
+	list-style: none;
+	margin: 0px;
+	display: block;
+	height: 200px;
+	/*width: 1450px;*/
+	text-align: center;
+	float:left;
+	left:65%;
+	position:relative;
+	width:100%;
+	
+	}
+
+.jimgMenu ul li {
+	position: relative;
+	right:46%;
+	float:left;
+
+}
+
+.jimgMenu ul li a {
+	text-indent: -1000px;
+	background:#FFFFFF none repeat scroll 0%;
+	border-right: 2px solid #fff;
+	cursor:pointer;
+	display:block;
+	overflow:hidden;
+	width:100px;
+	height: 200px;
+}
+
+.jimgMenu ul li.home a {
+	background: url(tinnmannnav.jpg) repeat scroll 0%;
+}
+
+.jimgMenu ul li.roster a {
+	background: url(rosternav.jpg) repeat scroll 0%;
+}
+
+.jimgMenu ul li.events a {
+	background: url(eventsnav.jpg) repeat scroll 0%;
+}
+.jimgMenu ul li.gallery a {
+	background: url(gallerynav.jpg) repeat scroll 0%;
+}
+
+.jimgMenu ul li.videos a {
+	background: url(howardnav.jpg) repeat scroll 0%;
+	
+}
+
+.jimgMenu ul li.sponsors a {
+	background: url(sponsorsnav.jpg) repeat scroll 0%;
+	
+}
+
+.jimgMenu ul li.awards a {
+	background: url(awardsnav.jpg) repeat scroll 0%;
+	
+}
+
+
+.jimgMenu ul li.contact a {
+	background: url(contactnav.jpg) repeat scroll 0%;
+	
+}
+
+.jimgMenu ul li.forum a {
+	background: url(forumnav.jpg) repeat scroll 0%;
+	
+}
+
+.clear {
+	clear: both;
+}
